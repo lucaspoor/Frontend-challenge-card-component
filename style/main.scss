@@ -1,0 +1,27 @@
+@use "contenedorMayor";
+@use "contenedorMenor";
+
+// main background
+$mainColor: hsl(233, 47%, 7%);
+
+$cardBackground: hsl(244, 38%, 16%);
+
+
+// basic font size
+$font: 15px;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: $font;
+}
+body{
+    background-color: $mainColor;
+    display: flex;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+

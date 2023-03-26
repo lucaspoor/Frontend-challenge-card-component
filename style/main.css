@@ -1,0 +1,64 @@
+.contenedorMayor {
+  background-color: hsl(244, 38%, 16%);
+  width: 60%;
+  height: 50%;
+  display: flex;
+  border-radius: 10px;
+}
+
+.contenedorMenor {
+  font-family: "Inter", sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 4%;
+  gap: 15%;
+}
+.contenedorMenor .titulo {
+  font-weight: 700;
+  font-size: 40px;
+}
+.contenedorMenor .titulo span {
+  color: hsl(277, 64%, 61%);
+}
+.contenedorMenor .subtitulo {
+  width: 75%;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.contenedorMenor .stats {
+  padding-top: 5%;
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+.contenedorMenor .stats .statsBox {
+  display: flex;
+  flex-direction: column;
+}
+.contenedorMenor .stats .titulo {
+  font-size: 25px;
+}
+.contenedorMenor .stats .textStat {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 13px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+body {
+  background-color: hsl(233, 47%, 7%);
+  display: flex;
+  height: 1000px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}/*# sourceMappingURL=main.css.map */

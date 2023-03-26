@@ -1,0 +1,49 @@
+$cardBackground: hsl(244, 38%, 16%);
+
+$accent: hsl(277, 64%, 61%);
+
+$font: 15px;
+
+.contenedorMenor{
+    font-family: 'Inter', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: $font;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 4%;
+    gap: 15%;
+    .titulo {
+        font-weight: 700;
+        font-size: 40px;
+   
+        span {
+            color: $accent;
+        }
+    }
+    .subtitulo {
+        width: 75%;
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+    .stats{
+        padding-top: 5%;
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+        .statsBox{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .titulo{
+            font-size: 25px;
+        }
+        .textStat{
+            font-family: 'Lexend Deca', sans-serif;
+            color:hsla(0, 0%, 100%, 0.6) ;
+            font-size: 13px;
+        }
+    }
+    
+}
