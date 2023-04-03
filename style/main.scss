@@ -1,6 +1,7 @@
 @use "contenedorMayor";
 @use "contenedorMenor";
 @use "imagen";
+@use "mediaquery";
 
 // main background
 $mainColor: hsl(233, 47%, 7%);
@@ -19,7 +20,7 @@ $font: 15px;
 body {
   background-color: $mainColor;
   display: flex;
-  height: 1000px;
+  height: 1050px;
   justify-content: center;
   align-items: center;
   flex-direction: column;

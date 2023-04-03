@@ -1,0 +1,23 @@
+@media screen and (max-width: 375px) {
+  .contenedorMayor {
+    flex-direction: column-reverse;
+    height: 80%;
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 30px;
+    .contenedorMenor {
+      text-align: center;
+      align-items: center;
+      gap: 30px;
+      padding: 20px;
+      .stats {
+        flex-direction: column;
+        gap: 40px;
+        padding-bottom: 25px;
+      }
+    }
+    img {
+      border-radius: 10px 10px 0px 0px;
+    }
+  }
+}
